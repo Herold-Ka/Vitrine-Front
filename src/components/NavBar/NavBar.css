@@ -1,0 +1,136 @@
+.divNavBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 480px;
+    background-color: #343a40;
+    background-image: url("./img/jln-mck-dtiys-daniel-06-03.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+}
+.navBarMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+.navBarRight{
+    display: flex;
+    width: 460px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBarRight > .navBarLink, .navBarLeft > .navBarLink, .navBarSelect > p {
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navBarLeft > .navBarLink > img{
+    height: 55px;
+    margin: auto;
+}
+.navBarLeft{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+.navBarExplore{
+    list-style: none;
+    position: fixed;
+    top: 40px;
+    width: 110px;
+    height: 130px;
+    background-color: white;
+    padding: 0;
+    border-radius: 7px;
+    justify-content: center;
+    display: none;
+}
+.navBarExplore > li {
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.navBarExplore > li > .navBarLink{
+    color: #343a40;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+#navBarSignIn{
+    background-color: #05a081;
+    color: #343a40;
+    height: 50px;
+    width: 90px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: color 1.5s ease-out;
+    -moz-transition: color 1.5s ease-out;
+    -o-transition: color 1.5s ease-out;
+    transition: color 1.5s ease-out;
+}
+
+/**Effet Main NavBar*/
+.navBarSelect:hover + .navBarExplore{
+    display: block;
+}
+.navBarSelect > p:hover{
+    cursor: pointer;
+}
+.navBarSelect > p:hover + .navBarExplore{
+    display: block;
+}
+.navBarExplore:hover{
+    display: block;
+}
+.navBarExplore > li:hover{
+    background-color: aliceblue;
+}
+#navBarSignIn:hover{
+    color: white;
+}
+
+/**Partie Search bar*/
+
+.navBarSearch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.navBarSearch > p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.navBarSearch > input{
+    margin: auto;
+    display: block;
+    font-size: 20px !important;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    
+}
