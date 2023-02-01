@@ -3,13 +3,14 @@
     top: 1980px;
     left: 0;
     gap: 30px 30px;
-    height: 1200px;
+    min-height: 1200px;
     overflow-y: scroll;
     width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     background-color: #343a40;
+    overflow: hidden;
 }
 .divSecondCardImage{
     display: flex;
