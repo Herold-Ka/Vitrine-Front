@@ -1,0 +1,28 @@
+.divSecondCard{
+    position: absolute;
+    top: 1980px;
+    left: 0;
+    gap: 30px 30px;
+    height: 1200px;
+    overflow-y: scroll;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+}
+.divSecondCardImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 98%;
+    margin: auto;
+}
+.divSecondCardImage > img{
+    display: block;
+    max-height: 220px;   
+    padding: 0;
+    cursor: pointer;
+}

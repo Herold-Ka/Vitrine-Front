@@ -1,0 +1,79 @@
+.divNavBarType{
+    position: absolute;
+    top: 1680px;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #343a40;
+}
+.textNavBarType{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    align-items: center;
+    border-top: solid 1px#212529;
+}
+.textNavBarType > p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.topicsCard{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    border-bottom: solid 1px #212529;
+}
+.topicsCard > button{
+    height: 80px;
+    width: 175px;
+    font-size: 13.5px;
+    font-weight: 200;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 0.5px #212529;
+    text-shadow: -1px 0px 0px white,
+    1px 0px 0px white,
+    0px -1px 0px white,
+    0px 1px 0px white;
+}
+.homeAIButton{
+    width: 100%;
+    background-image: url('/img/image_1675219065277_1024.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.homeFanArtButton{
+    height: 100%;
+    background-image: url('/img/obito_uchiha____the_selected_path_by_zetsuai89_d75vvta-fullview.jpg');
+    background-size: cover;
+}
+.homePhotographyButton{
+    background-position: 50%;
+    background-image: url('/img/woman-7712737_960_720.jpg');
+    background-size: cover;
+}
+.homeFantaisyButton{
+    height: 100%;
+    background-image: url('/img/irelia_spirit_blossom_fanart_by_noslinart_dfeusxk-pre.png');
+    background-size: cover;
+}
+.homeAMButton{
+    height: 100%;
+    background-image: url('/img/Konachan.com - 348527 sample.jpg');
+    background-size: cover;
+}
+.homeComicsButton{
+    height: 100%;
+    background-image: url('/user_image/adrian-wilkins-spiderman-into-the-spiderverse-final-by-adrian-wilkins.jpg');
+    background-size: cover;
+}

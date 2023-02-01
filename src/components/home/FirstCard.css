@@ -1,0 +1,28 @@
+.divFirstCard{
+    position: absolute;
+    top: 480px;
+    left: 0;
+    gap: 30px 30px;
+    height: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+}
+.divFirstCardImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 98%;
+    margin: auto;
+}
+.divFirstCardImage > img{
+    display: block;
+    max-height: 220px;   
+    /*margin: auto;*/
+    padding: 0;
+    cursor: pointer;
+}

@@ -11,7 +11,7 @@ const Connexion = (setConnexionData) => {
           <input type="email" placeholder='Email'/>
           <input type="password" placeholder='Password'/>
         </div>
-        <button type='button'> Connexion </button>
+        <button type='button' className='connexionButton'> Connexion </button>
       </form>
     </div>
   )

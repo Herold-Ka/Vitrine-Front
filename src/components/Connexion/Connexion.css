@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 }
-.signInFormFormConnexion, button{
+.signInFormFormConnexion, .connexionButton{
     height: 50px;
     width: 130px;
     background-color: #05a081;
