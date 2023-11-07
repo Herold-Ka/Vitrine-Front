@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
@@ -20,7 +19,7 @@ function App() {
         <BrowserRouter>
         <NavBar/>
         <Routes>
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/Shop' element={<Shop/>}/>
         <Route path='/Join' element={<Join/>}/>
         <Route path='LicenceFree' element={<LicenceFree/>}/>
@@ -31,6 +30,7 @@ function App() {
         <Route path='SignIn' element={<SignIn/>}/>
         </Routes>
         </BrowserRouter>
+
     </div>
   )
 }

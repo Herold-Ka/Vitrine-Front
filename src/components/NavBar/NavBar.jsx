@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className='divNavBar'>
         <div className='navBarMain'>
             <div className='navBarLeft'>
-                <Link to='Home' className='navBarLink'><img src="./img/Violet Moderne Technologie et Gaming Logo.png" alt="" /></Link>
+                <Link to='/' className='navBarLink'><img src="./img/Violet Moderne Technologie et Gaming Logo.png" alt="Logo" /></Link>
                 <Link to='Shop' className='navBarLink'>Shop</Link>
             </div>
             <div className='navBarRight'>
